@@ -3,3 +3,5 @@
 01.实现手风琴 -->accordian
 
 02.实现随机色 -->random-color
+
+03.实现评级 -->star-rating
