@@ -5,3 +5,5 @@
 02.实现随机色 -->random-color
 
 03.实现评级 -->star-rating
+
+04.实现轮播图 -->slider
