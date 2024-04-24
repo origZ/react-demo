@@ -33,7 +33,7 @@ const RandomColor = memo(() => {
   useEffect(() => handleCreateRandomColor(), [typeOfColor]);
 
   return (
-    <RandomColorWrapper themeColor={color}>
+    <RandomColorWrapper color={color}>
       <button onClick={() => setTypeOfColor("hex")}>Create HEX Color</button>
       <button onClick={() => setTypeOfColor("rgb")}>Create RGB Color</button>
       <button onClick={handleCreateRandomColor}>Create Random Color</button>

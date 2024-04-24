@@ -4,7 +4,7 @@ export const RandomColorWrapper = styled.div`
   text-align: center;
   width: 100vw;
   height: 100vh;
-  background-color: ${(props) => props.themeColor};
+  background-color: ${(props) => props.color};
 
   > .content {
     display: flex;

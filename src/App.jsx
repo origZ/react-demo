@@ -3,14 +3,16 @@ import Accordian from "./components/accordian";
 import RandomColor from "./components/random-color";
 import StarRating from "./components/star-rating";
 import Slider from "./components/slider";
+import LoadMoreData from "./components/load-more-data";
 
 const App = memo(() => {
   return (
     <div>
-      <Accordian />
+      {/* <Accordian />
       <RandomColor />
       <StarRating noOfstars={10} />
-      <Slider url={"https://picsum.photos/v2/list"} page={"1"} limit={"10"} />
+      <Slider url={"https://picsum.photos/v2/list"} page={"1"} limit={"10"} /> */}
+      <LoadMoreData />
     </div>
   );
 });
