@@ -13,3 +13,5 @@
 06.实现树状图 -->tree-view
 
 07.实现二维码 -->qr-code-generator
+
+08.实现主题切换 -->light-dark-mode

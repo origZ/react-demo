@@ -7,6 +7,7 @@ import LoadMoreData from "./components/load-more-data";
 import TreeView from "./components/tree-view";
 import { menus } from "./components/tree-view/data.js";
 import QRCodeGenerator from "./components/qr-code-generator/index.jsx";
+import LightDarkMode from "./components/light-dark-mode/index.jsx";
 const App = memo(() => {
   return (
     <div>
@@ -16,7 +17,8 @@ const App = memo(() => {
       {/* <Slider url={"https://picsum.photos/v2/list"} page={"1"} limit={"10"} /> */}
       {/* <LoadMoreData /> */}
       {/* <TreeView menus={menus} /> */}
-      <QRCodeGenerator />
+      {/* <QRCodeGenerator /> */}
+      <LightDarkMode />
     </div>
   );
 });
