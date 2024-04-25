@@ -11,3 +11,5 @@
 05.实现加载更多 -->load-more-data
 
 06.实现树状图 -->tree-view
+
+07.实现二维码 -->qr-code-generator

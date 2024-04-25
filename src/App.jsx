@@ -6,6 +6,7 @@ import Slider from "./components/slider";
 import LoadMoreData from "./components/load-more-data";
 import TreeView from "./components/tree-view";
 import { menus } from "./components/tree-view/data.js";
+import QRCodeGenerator from "./components/qr-code-generator/index.jsx";
 const App = memo(() => {
   return (
     <div>
@@ -14,7 +15,8 @@ const App = memo(() => {
       {/* <StarRating noOfstars={10} /> */}
       {/* <Slider url={"https://picsum.photos/v2/list"} page={"1"} limit={"10"} /> */}
       {/* <LoadMoreData /> */}
-      <TreeView menus={menus} />
+      {/* <TreeView menus={menus} /> */}
+      <QRCodeGenerator />
     </div>
   );
 });
