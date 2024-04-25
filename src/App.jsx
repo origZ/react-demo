@@ -4,15 +4,17 @@ import RandomColor from "./components/random-color";
 import StarRating from "./components/star-rating";
 import Slider from "./components/slider";
 import LoadMoreData from "./components/load-more-data";
-
+import TreeView from "./components/tree-view";
+import { menus } from "./components/tree-view/data.js";
 const App = memo(() => {
   return (
     <div>
-      {/* <Accordian />
-      <RandomColor />
-      <StarRating noOfstars={10} />
-      <Slider url={"https://picsum.photos/v2/list"} page={"1"} limit={"10"} /> */}
-      <LoadMoreData />
+      {/* <Accordian /> */}
+      {/* <RandomColor /> */}
+      {/* <StarRating noOfstars={10} /> */}
+      {/* <Slider url={"https://picsum.photos/v2/list"} page={"1"} limit={"10"} /> */}
+      {/* <LoadMoreData /> */}
+      <TreeView menus={menus} />
     </div>
   );
 });
