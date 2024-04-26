@@ -17,3 +17,5 @@
 08.实现主题切换 -->light-dark-mode
 
 09.实现滚动条指示器 -->scroll-indicator
+
+10.实现自定义选项卡 -->custom-tabs
