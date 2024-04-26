@@ -15,3 +15,5 @@
 07.实现二维码 -->qr-code-generator
 
 08.实现主题切换 -->light-dark-mode
+
+09.实现滚动条指示器 -->scroll-indicator
