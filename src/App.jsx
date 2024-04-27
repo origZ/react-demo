@@ -10,6 +10,7 @@ import QRCodeGenerator from "./components/qr-code-generator/index.jsx";
 import LightDarkMode from "./components/light-dark-mode/index.jsx";
 import ScrollIndicator from "./components/scroll-indicator/index.jsx";
 import TabTest from "./components/custom-tabs/tab-test.jsx";
+import ModalTest from "./components/custom-modal-popup/modal-test.jsx";
 const App = memo(() => {
   return (
     <div>
@@ -22,7 +23,8 @@ const App = memo(() => {
       {/* <QRCodeGenerator /> */}
       {/* <LightDarkMode /> */}
       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
-      <TabTest />
+      {/* <TabTest /> */}
+      <ModalTest />
     </div>
   );
 });
