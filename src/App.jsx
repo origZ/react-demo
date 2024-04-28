@@ -12,6 +12,7 @@ import ScrollIndicator from "./components/scroll-indicator/index.jsx";
 import TabTest from "./components/custom-tabs/tab-test.jsx";
 import ModalTest from "./components/custom-modal-popup/modal-test.jsx";
 import GithubProfileFinder from "./components/github-profile-finder/index.jsx";
+import SearchAutocomplete from "./components/search-autocomplete-with-api/index.jsx";
 const App = memo(() => {
   return (
     <div>
@@ -26,7 +27,8 @@ const App = memo(() => {
       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
       {/* <TabTest /> */}
       {/* <ModalTest /> */}
-      <GithubProfileFinder />
+      {/* <GithubProfileFinder /> */}
+      <SearchAutocomplete />
     </div>
   );
 });
