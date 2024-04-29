@@ -13,6 +13,7 @@ import TabTest from "./components/custom-tabs/tab-test.jsx";
 import ModalTest from "./components/custom-modal-popup/modal-test.jsx";
 import GithubProfileFinder from "./components/github-profile-finder/index.jsx";
 import SearchAutocomplete from "./components/search-autocomplete-with-api/index.jsx";
+import TicTacToe from "./components/tic-tac-toe/index.jsx";
 const App = memo(() => {
   return (
     <div>
@@ -28,7 +29,8 @@ const App = memo(() => {
       {/* <TabTest /> */}
       {/* <ModalTest /> */}
       {/* <GithubProfileFinder /> */}
-      <SearchAutocomplete />
+      {/* <SearchAutocomplete /> */}
+      <TicTacToe />
     </div>
   );
 });
